@@ -24,6 +24,8 @@ Despite the progress made in the field, there are still several challenges to be
 
 In this article, a novel approach to 3D object detection in road scenes using Inverse Perspective Mapping (IPM) is presented. Unlike other methods that rely on deep learning techniques to estimate object orientation and sizes, the proposed method uses geometric constraints. By utilizing IPM, we can transform the perspective view of a scene into a top-down Bird’s-Eye View (BEV). This transformation enables us to compute the projection of an object in BEV space accurately using its dimensions, classification, and 2D bounding box. This approach allows us to accurately detect objects in 3D spaces with almost no performance loss compared to 2D.
 
+![Illustration](images/003924_bev_3d.jpg)
+
 ## Conclusion and Implications for Computer Vision Applications
 In conclusion, I proposed a novel approach for real-time 3D object detection in autonomous driving scenarios and for traffic cameras, which significantly outperforms current state-of-the-art methods in execution speed at the same level of accuracy. The proposed approach combines inverse perspective mapping, instance segmentation, and geometric classification, and achieves a mean Average Precision (mAP) of 84.5%. It is important to note that while YolactEdge is a powerful and effective instance segmentation method, future advancements in instance segmentation techniques may offer even better performance. The proposed method can be adapted to incorporate newer methods as they emerge, ensuring that it stays at the forefront of instance segmentation capabilities and further enhances the accuracy and efficiency of the 3D detection process.
 
